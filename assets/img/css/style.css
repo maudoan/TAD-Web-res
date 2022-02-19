@@ -20,7 +20,7 @@ main{
     background-color: transparent;
 }
 .slogan{
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .slogan span{
     margin-top: 15px;
@@ -109,14 +109,14 @@ main{
     padding-top: 30px;
 }
 .text1 h2{
-    font-size: 1.8rem;
+    font-size: 40px;
     font-weight: 400;
     color: black;
     font-family: 'Satisfy', cursive;
     text-transform: capitalize;
 }
 .List-product{
-    background-color: rgba(0,0,0,1);
+    background-color: rgba(0, 0, 0, 1);
     position: relative;
     width: 100%;
     max-width: 1200px;
@@ -124,6 +124,7 @@ main{
     padding: 0;
     background: #fff;
     box-shadow: 0 1px 8px rgb(55 55 55 / 15%);
+    text-align: center;
 }
 .product__child{
     padding: 15px 0;
@@ -139,6 +140,7 @@ main{
     font-size: 14px;
     font-weight: 700;
     color: #fff;
+    
 }
 .product__child a span{
     display: block;

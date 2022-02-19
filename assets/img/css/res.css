@@ -1,5 +1,8 @@
-@media (max-width:600px) {
+@media (max-width:800px) {
     .slogan,.hotline {
         display: none;
+    }
+     h2{
+        font-size: 20px;
     }
 }
