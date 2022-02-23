@@ -241,25 +241,20 @@ footer{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-footer .container{
+footer .footer-res{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
 }
-footer .container .noi-dung{
-    margin-right: 30px;
-}
-footer  .container .noi-dung.about{
-    width:40%;
-}
-footer .container .noi-dung.about h2{
+
+footer .noi-dung.about h2{
     position: relative;
     color: #fff;
     font-weight: 500;
     margin-bottom: 15px;
 }
-footer .container .noi-dung.about h2:before{
+footer  .noi-dung.about h2:before{
     content: '';
     position: absolute;
     bottom: -5px;
@@ -268,18 +263,10 @@ footer .container .noi-dung.about h2:before{
     height: 2px;
     background: #f00;
 }
-footer .container .noi-dung.about p{
+footer .about p{
     color: #999;
 }
 
-
-.links h2{
-    position: relative;
-    color: #fff;
-    font-weight: 500;
-    margin-bottom: 15px;
-
-}
 .links h2{
     position: relative;
     color: #fff;
@@ -296,8 +283,7 @@ footer .container .noi-dung.about p{
     background: #f00;
 }
 .links{
-   position: relative;
-   width: 25%;
+   position: relative; 
 }
 .links ul li{
     list-style: none;
@@ -327,7 +313,6 @@ footer .container .noi-dung.about p{
     background: #f00;
 }
 .contact{
-    width: calc(35% - 60px);
     margin-right: 0 !important;
 }
 .contact .info{
