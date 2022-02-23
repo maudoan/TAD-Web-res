@@ -265,6 +265,7 @@ footer  .noi-dung.about h2:before{
 }
 footer .about p{
     color: #999;
+    text-align: justify;
 }
 
 .links h2{
