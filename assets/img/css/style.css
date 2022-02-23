@@ -43,11 +43,31 @@ main{
     margin-top: 10px;
     display: inline-block;
 }
-.log-in img{
-    padding-top:10px;
-    padding-bottom: 10px;
-    float: right;
-    margin-top: 10px;
+.log-in{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px 20px;
+    justify-content: center;
+}
+.signin img{
+   width: 30px;
+   height: 30px;
+   
+}
+.login{
+    margin-left: 10px;
+}
+.login img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+.signin span{
+    font-size: 10px;
+}
+.login span{
+    font-size: 10px;
 }
 .header-menu{
     background-color: rgba(0,255,0,0.9);
